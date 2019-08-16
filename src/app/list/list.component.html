@@ -1,0 +1,12 @@
+<br/><div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let todo of todos">
+            <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">{{todo.task}}</h4>
+                  <p class="card-text">Rating: {{todo.description}}</p>
+                </div>
+              </div>
+      </div>
+    </div>
+  </div>
